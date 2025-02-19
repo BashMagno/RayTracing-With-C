@@ -5,8 +5,6 @@
 #include <math.h>
 #include <stdlib.h>
 
-
-
 const int WIDTH = 1200;
 const int HEIGHT = 800;
 const Uint32 COLOR_WHITE = 0xffffffff;
@@ -51,8 +49,6 @@ void fillCircle( SDL_Surface* surface, struct Circle circle, Uint32 colorIn)
         }
     }
 }
-
-#include <math.h>
 
 void fillRay(SDL_Surface* surface, struct Ray rays[], Uint32 color, int rays_amount, struct Circle circle)
 {
